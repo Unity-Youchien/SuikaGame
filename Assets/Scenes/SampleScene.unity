@@ -1028,6 +1028,8 @@ MonoBehaviour:
   - {fileID: 1634167411082684181, guid: ecc30b6fb7da1354c9c36e10361895c3, type: 3}
   - {fileID: 3386445176136929927, guid: 571add116435eb7468eac66f8bae2e51, type: 3}
   - {fileID: 7921735385865363788, guid: 7517dfaa4d5fc7b4d85edfe3a835bc70, type: 3}
+  - {fileID: 3405319546955055536, guid: 7ce5aa0223c1fad409f706c27adf5f51, type: 3}
+  - {fileID: 5297001138511810691, guid: b27f32ff6122015469e0c8eba42216cf, type: 3}
   spawnPoint: {fileID: 331624668}
   nextFruits: {fileID: 579068140}
   colors:
@@ -1037,6 +1039,10 @@ MonoBehaviour:
     rgba: 4286250752
   - serializedVersion: 2
     rgba: 4294963537
+  - serializedVersion: 2
+    rgba: 4294907552
+  - serializedVersion: 2
+    rgba: 4294967295
 --- !u!212 &1980368719
 SpriteRenderer:
   m_ObjectHideFlags: 0
