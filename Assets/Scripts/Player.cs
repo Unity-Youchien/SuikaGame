@@ -24,6 +24,9 @@ public class Player : MonoBehaviour
 
     [SerializeField] Color32[] colors;
 
+    // キャッシュ化
+    WaitForSeconds waitTime = new WaitForSeconds(0.3f);
+
     private void Start()
     {
         // フルーツをSpawnPointの位置に生成する
@@ -73,7 +76,7 @@ public class Player : MonoBehaviour
         fruitsObj.transform.SetParent(null);
 
         // ちょっと時間を待ってもらう
-        yield return new WaitForSeconds(0.3f);
+        yield return waitTime;
 
         // 次のフルーツをセットする
         fruitsObj = Instantiate(fruits[nextFruitsNum], spawnPoint.position, Quaternion.identity, this.transform);
